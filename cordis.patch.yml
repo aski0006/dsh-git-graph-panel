@@ -1,0 +1,8 @@
+# dsh-git-graph-panel bundle patch: adds the sidebar Git Graph tab to the
+# profile's plugin roster. The row is a bare plugin by package name: the host
+# half (exports ".") serves the read-only /plugins/git-graph-panel/data route,
+# and the `dsh.client` declaration in package.json makes the browser half
+# (exports "./client") load in the web GUI.
+- insert:
+    - id: git-graph-panel
+      name: 'dsh-git-graph-panel'

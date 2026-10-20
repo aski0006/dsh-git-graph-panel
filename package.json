@@ -1,0 +1,49 @@
+{
+	"name": "dsh-git-graph-panel",
+	"version": "0.1.0",
+	"private": true,
+	"description": "Git Graph tab for the DSH web right sidebar: repository detection plus a drawn commit graph",
+	"icon": "icon.svg",
+	"type": "module",
+	"main": "lib/index.js",
+	"exports": {
+		".": "./lib/index.js",
+		"./client": "./lib/client.js",
+		"./package.json": "./package.json"
+	},
+	"files": [
+		"lib/**/*.js",
+		"cordis.patch.yml",
+		"icon.svg",
+		"README.md"
+	],
+	"scripts": {
+		"test": "node test/run.mjs"
+	},
+	"dsh": {
+		"engines": {
+			"dsh": ">=0.2.1-rc.2"
+		},
+		"bundle": {
+			"patch": "./cordis.patch.yml"
+		},
+		"client": {
+			"inject": [
+				"@deepseek-ai/dsh-client-locale"
+			],
+			"platform": "web"
+		}
+	},
+	"peerDependencies": {
+		"react": "^18.2.0"
+	},
+	"author": "Asaki0019",
+	"keywords": [
+		"dsh",
+		"dsh-plugin",
+		"git",
+		"git-graph",
+		"right-sidebar"
+	],
+	"license": "UNLICENSED"
+}

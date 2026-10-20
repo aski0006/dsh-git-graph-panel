@@ -1,0 +1,6 @@
+node_modules/
+out/
+*.tsbuildinfo
+.dsh-ops-update-*.lock
+.DS_Store
+Thumbs.db
