@@ -15,7 +15,8 @@
 		"lib/**/*.js",
 		"cordis.patch.yml",
 		"icon.svg",
-		"README.md"
+		"README.md",
+		"LICENSE"
 	],
 	"scripts": {
 		"test": "node test/run.mjs"
@@ -45,5 +46,5 @@
 		"git-graph",
 		"right-sidebar"
 	],
-	"license": "UNLICENSED"
+	"license": "SEE LICENSE IN LICENSE"
 }

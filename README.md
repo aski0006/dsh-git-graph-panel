@@ -171,8 +171,14 @@ curl "http://127.0.0.1:<port>/git-graph-panel/data?path=D%3A%2Ftest%2Ftest-git"
 
 ## 许可
 
-本仓库目前**没有**许可证文件，默认保留所有权利。如果打算公开发布并让别人复用，
-建议加一个 `LICENSE`（MIT 或 Apache-2.0 都好），然后把这一节换成对应的说明。
+源码公开，但**不是开源项目**：本项目使用
+[PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0)
+（见 `LICENSE`）。
+
+- 可以：个人使用、学习研究、 hobby 项目、慈善/教育/公共机构使用，以及在这些范围内的
+  修改与分发（分发时要带上本许可证或它的链接）。
+- 不可以：任何商业用途。公司内部使用、打包进商业产品、对外提供付费服务，都算商业用途。
+- 商用授权请联系作者（GitHub [@aski0006](https://github.com/aski0006)）。
 
 ## English
 
